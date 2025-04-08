@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #1a1a1a;
+}
+
+.logo {
+  height: 60px;
+}
+
+.login-btn {
+  background: #ff2fcf;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.descripcion {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background: #222;
+}
+
+footer {
+  padding: 1rem;
+  background: #111;
+  text-align: center;
+}
+
+footer .social a {
+  color: #ff4d94;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+#contact-form {
+  margin-top: 1rem;
+}
+
+#contact-form input, #contact-form textarea {
+  width: 90%;
+  margin: 5px auto;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#contact-form button {
+  background: #ffe14f;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
